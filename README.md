@@ -25,7 +25,7 @@ With REDACTR, you can simply paste or type your text into a form field, specify 
 
 ## Usage
 
-1. Visit the REDACTR website (link here).
+1. Visit the REDACTR website [(link here)](https://gab4good.github.io/redactr/).
 
 2. Enter or paste the text you want to redact into the provided form field.
 
