@@ -1,6 +1,6 @@
 # REDACTR - Safely Share Content on Social Media
 
-![REDACTR Logo](redactr-logo.png)
+![REDACTR Logo](/images/logo.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
