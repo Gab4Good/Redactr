@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redactr | Your online text scrambler</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="css/redactr_styles.css">
+  <script src="js/redactr_script.js"></script>
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <div class="container">
+        <h1 class="header-title"><img src="images/logo.png" /> <span>Redactr</span></h1>
+        <p class="header-subtitle">A handy online tool to quickly scramble your text for that safe, user-friendly content.</p>
+      </div>
+    </header>
+
+    <div class="content">
+        <div class="text-header">
+            <span> Original Text</span>
+        </div>
+
+      <textarea id="textToScramble" class="text-body" placeholder="Input text to scramble"></textarea>
+      
+      <div class="small-margin">
+      <button id="pasteFromClipboard" class="btn-aux">Paste from Clipboard</button>
+      <input type="text" id="scrambleWords" class="big-text" placeholder="Words to scramble (Please separate by space)">
+      <input type="text" id="replacementChar" class="small-text" placeholder="Masking character (e.g. #)">
+      </div>
+
+      <div class="big-margin">
+        <button id="scrambleButton" class="btn-primary">Scramble Text</button>
+      </div>
+      
+      <div class="hidden">
+      <div class="big-margin text-header-s">
+        <span> Scrambled Text</span>
+      </div>
+
+      <div id="scrambledText" class="text-body-s">
+        ...
+      </div>
+      
+      <div class="small-margin">
+      <button id="copyToClipboard" class="btn-aux">Copy to Clipboard</button>
+      </div>
+      </div>
+
+      <div id="scrambleStats" class="hidden text-stats"></div>
+    </div>
+
+    <footer>
+      Copyright &copy; 2023 Redactr
+    </footer>
+
+  </div>
+</body>
+</html>

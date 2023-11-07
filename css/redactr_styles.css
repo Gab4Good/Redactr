@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "nunito", sans-serif;
+}
+
+.header {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 0;
+}
+  
+  .header-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.header-title img {
+    height: 75px;
+    margin-right: 12px;
+}
+
+.header-title span {
+    vertical-align: super;
+}
+
+.header-subtitle {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.text-header {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background: #FBFBFB;
+    border-style: solid;
+    border-width: 1px 1px 0 1px;
+    border-color: rgba(0,0,0,0.15);
+}
+
+.text-body {
+    background: #FFFFFF;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-sizing: border-box;
+    font-family: "ptmono", monospace;
+    width: 800px;
+    position: relative;
+    overflow: auto;
+    min-height: 150px;
+    max-height: 300px;
+    height: auto;
+    color: black;
+    direction: ltr;
+    padding: 5px;
+}
+
+
+
+
+.text-header-s {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background: #FBFBFB;
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+  border-color: rgba(0,0,0,0.15);
+}
+
+.text-body-s {
+  background: #FFFFFF;
+  border: 1px solid rgba(0,0,0,0.15);
+  box-sizing: border-box;
+  font-family: "ptmono", monospace;
+  width: 800px;
+  position: relative;
+  overflow: auto;
+  min-height: 150px;
+  max-height: 300px;
+  color: black;
+  direction: ltr;
+  padding: 5px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.big-margin {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+
+.small-margin {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.big-text{
+  padding: 5px;
+  margin: 0 10px;
+  width: 40%;;
+}
+
+.small-text{
+  padding: 5px;
+  width: 25%;;
+}
+
+.btn-primary{
+  padding: 10px 30px;
+  margin: 0 10px;
+  color:white;
+  background-color: black;
+  border-style: solid;
+  cursor: pointer;
+}
+ 
+.btn-aux{
+  padding: 5px 10px;
+  cursor: pointer;
+}
+ 
+  #scrambleStats {
+    font-size: 16px;
+    margin-top: 40px;
+    color: white;
+    background-color: black;
+    padding: 15px;
+  }
+  
+  .content {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+
+
+  footer {
+    margin: 75px 0 5px;
+    text-align: center;
+    font-size: 12px;
+  }
